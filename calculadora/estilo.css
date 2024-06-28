@@ -1,0 +1,60 @@
+.painel{
+    border: 1px solid black;
+    width: 400px;           /*largura*/
+    height: 400px;          /* altura */
+    margin: auto;           /*centralizar div*/
+    text-align: center;     /* centralizar conteúdo*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    background-color: rgba(71, 61, 139, 0.858);/* cor de fundo*/
+    color: white;   /*cor da letra*/
+}
+
+#n1, #n2{
+    width: 310px;     /*largura do input*/
+    height: 30px;       /*altura do input*/
+    text-align: center; /*centralizar*/
+    border-radius: 10px;   /*arredondar*/
+    border: none;         /*tirar borda*/
+}
+
+.botao{
+    background-color: lightskyblue; /*cor de fundo*/
+    padding: 8px;                /*espaçamento interno*/
+    border: none;               /*tirar borda*/
+    border-radius: 5px;       /*arredondar borda*/
+    box-shadow: 1px 1px 4px black;  /*sombra*/
+}
+.botaoLimpar{
+    background-color: rgb(245, 137, 137); /*cor de fundo*/
+    padding: 8px;                /*espaçamento interno*/
+    border: none;               /*tirar borda*/
+    border-radius: 5px;       /*arredondar borda*/
+    box-shadow: 1px 1px 4px black;  /*sombra*/
+}
+
+.botaoLimpar:hover{
+    background-color: rgb(247, 79, 79);
+    box-shadow: 1px 1px 4px white;
+    transition: 1s;
+}
+
+.botao:hover{
+    background-color: cyan;
+    box-shadow: 1px 1px 4px white;
+    transition: 1s;
+}
+
+#resultado{
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+}
+
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/276/608/HD-wallpaper-abstract-constellation-abstract-digital-art.jpg);
+    background-size: cover;
+}
+
+
+
